@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">findproduct</string>
+    <string name="app_name">물건 정보 등록하기</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    
+    <string name="title_hint">등록할 물건이 무엇입니까?</string>
+    
+    <string name="position_label">위치</string>
+    <string name="position_form_hint">물건을 잃어버린(습득)한 위치</string>
+    
+    <string name="phone_label">Phone</string>
+    <string name="phone_form_hint">ex)01011112222</string>
+    
+    <string name="description_label">물건에 대한 자세한 정보를 적으세요</string>
+    <string name="description">주인을 잃은 물건에 대한 자세한 정보를 입력하세요</string>
 
 </resources>

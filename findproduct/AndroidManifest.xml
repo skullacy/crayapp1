@@ -7,6 +7,16 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature android:required="true" android:glEsVersion="0x00020000"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /><uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /><permission android:protectionLevel="signature" android:name="com.example.testexample1.permission.MAPS_RECEIVE"></permission>
+    <uses-permission android:name="com.example.testexample1.permission.MAPS_RECEIVE"/>
+    
+    
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -22,6 +32,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity 
+            android:name=".Registration"
+            android:label="잃어버린물건 등록"
+            ></activity>
+        <activity 
+            android:name=".smap"
+            android:label="위치 지정하기"
+            ></activity>
+        <meta-data android:value="AIzaSyCSMTs6OM4rJsqzG4-xYHgoKTSnokK9Hd8" android:name="com.google.android.maps.v2.API_KEY"/>
     </application>
 
 </manifest>
